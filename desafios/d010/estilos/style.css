@@ -89,16 +89,16 @@ span {
 }
 section  h1 {
     margin: 0px;
-    text-align: justify;
+    text-align: left;
     font-family: 'idroid', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: #119935;
 
 }
 section  h2{
-    text-align: justify;
+    text-align: left;
     font-family: 'idroid';
-    font-size: 17px;
+    font-size: 20px;
     color: #119935;
     background-image: linear-gradient(to right, rgba(15, 245, 15, 0.452), white); 
 }
@@ -110,7 +110,7 @@ article p {
 }
 article section  p {
     text-indent: 20px;
-    text-align: justify;
+    text-align: left;
     margin: 10px 0;
 }
 section.video {
@@ -140,9 +140,10 @@ section.novo_mascote > picture#android img {
     width: 100%;
     height: auto;
 }
-picture#irina img {
+picture img {
     width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 aside {
     background-color: #0ebe3db7;
