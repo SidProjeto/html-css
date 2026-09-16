@@ -31,6 +31,13 @@ def form3():
         return f"{nome} Cadastro concluido!"
     return render_template("form003.html")
 
+@app.route('/form004')
+def form4():
+    email = request.args.get("email")
+    if email:
+        return f"{email} Cadastro concluido!"
+    return render_template('form004.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
