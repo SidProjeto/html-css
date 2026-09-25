@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="lista">
+            <li><a href="">Opção 1</a></li>
+            <li><a href="">Opção 2</a></li>
+            <li><a href="">Opção 3</a></li>
+            <li><a href="">Opção 4</a></li>
+            <li><a href="">Opção 5</a></li>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis hic nobis unde officiis maiores distinctio blanditiis. Fugit id non neque omnis vero aut commodi tempora placeat sint blanditiis, vel molestiae!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, officia ipsa vitae iure autem, soluta, maxime iusto eveniet assumenda nemo sit adipisci facilis neque illum fuga cumque? Molestiae modi vitae consequuntur sapiente deserunt iste eveniet possimus, odio numquam sequi velit voluptas iusto nihil quibusdam repellendus totam aspernatur, dicta repellat saepe.<p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, quasi explicabo, laboriosam aperiam eaque quod iure incidunt nesciunt omnis exercitationem, fugit magni eveniet facere iste ad possimus sed temporibus labore. Nostrum, numquam eaque repellendus ut recusandae quam, nesciunt nulla quidem architecto iusto, assumenda possimus non. Harum modi eveniet nobis, culpa, reiciendis sequi aut dolorem cum nihil aspernatur quam similique repellendus sed nisi aliquid quos, pariatur esse enim delectus natus dignissimos. Totam nam voluptatem similique optio ad a enim. Fugiat, ex! Ipsam aliquam voluptatibus maiores quas voluptatem quis neque commodi qui facere soluta molestias, provident officiis aut, consectetur et repellendus ducimus!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (lista.style.display == 'block') {
+            lista.style.display = 'none'
+            } else {
+                lista.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
