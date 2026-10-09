@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+div.container {
+    display: flex;
+    height: 100px;
+    flex-flow: column wrap;
+    
+    background-color: lightsalmon;
+
+}
+
+div.item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
