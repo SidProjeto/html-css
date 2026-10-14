@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+div.container {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: lightsalmon;
+}
+
+div.item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    flex-basis: 200px;
+}
+div#cxA {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+div#cxB {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+div#cxC {
+    flex-shrink: 8;
+    flex-grow: 1;
+}
