@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    header > h1 {
+        padding: 0;
+        text-align: left;
+        flex: 0 0 200px;
+    }
+    nav {
+        display: block !important;
+    }
+    ul {
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+    ul a {
+        margin: 10px;
+    }
+    span.material-symbols-outlined {
+        display: none;
+    }
+}
